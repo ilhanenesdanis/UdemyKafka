@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Consumer", "Kafka.Consumer\Kafka.Consumer.csproj", "{E2B17580-ED41-44BF-9B95-0B2AB1006764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Producer", "Kafka.Producer\Kafka.Producer.csproj", "{77721206-355D-403E-B1C8-7F9A17B081E3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{21D318E7-E55D-4D26-BED5-735D897D88A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2B17580-ED41-44BF-9B95-0B2AB1006764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B17580-ED41-44BF-9B95-0B2AB1006764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B17580-ED41-44BF-9B95-0B2AB1006764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B17580-ED41-44BF-9B95-0B2AB1006764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77721206-355D-403E-B1C8-7F9A17B081E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77721206-355D-403E-B1C8-7F9A17B081E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77721206-355D-403E-B1C8-7F9A17B081E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77721206-355D-403E-B1C8-7F9A17B081E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D318E7-E55D-4D26-BED5-735D897D88A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D318E7-E55D-4D26-BED5-735D897D88A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D318E7-E55D-4D26-BED5-735D897D88A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D318E7-E55D-4D26-BED5-735D897D88A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D71B1343-F37E-4C4C-820C-86D7E55E7E99}
+	EndGlobalSection
+EndGlobal
